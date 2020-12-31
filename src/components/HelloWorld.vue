@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     convert(){
-      this.textVal = this.textVal.replaceAll("<br>", " ").replaceAll("&nbsp;", " ").replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&le;", "≤ ").replaceAll("&ge;", "≥");
+      this.textVal = this.textVal.replaceAll("<br>", " ").replaceAll("&nbsp;", " ").replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&le;", "≤ ").replaceAll("&ge;", "≥").replaceAll("&amp;", "&");
     }
   }
 }
